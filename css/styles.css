@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: gray;
     padding: 40;
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
@@ -54,7 +54,7 @@ body{
 
 .blog-box{
     width: 350px;
-    background-color: pink;
+    background-color: gray;
     border: 1px solid rgb(0, 0, 0);
     margin: 20px;
 
@@ -77,14 +77,15 @@ body{
     padding: 30px;
     display : flex;
     flex-direction: column;
+    overflow: hidden;
 }
-.blog-text span{
+.blog-text b{
     color: black;
     font-size: 1rem;
     font-weight: 800;
     text-align: center;
-    
 }
+
 
 .blog-text .blog-title{
     font-size: 1.3rem;
@@ -94,20 +95,19 @@ body{
 }
 
 .blog-text .blog-title:hover{
-    color: rgb(112, 76, 228);
+    color: rgb(245, 0, 0);
     transition: all ease 0.3s;
 }
 .blog-text p{
-    color: #9b9b9b;
+    color: #000000;
     font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: auto;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin : 10px 0px;
+    text-align: center;
+    margin: 10px 0px;
 }
-
+.blog-text
+#more {
+    display: none;
+}
 @media(max-width:1250px){
     blog-box{
         width : 300px;
