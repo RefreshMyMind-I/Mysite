@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: grey;
     padding: 40;
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
