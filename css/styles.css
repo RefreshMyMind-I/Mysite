@@ -111,6 +111,9 @@ body{
 #more {
     display: none;
 }
+#more1{
+    display: none;
+}
 @media(max-width:1250px){
     blog-box{
         width : 300px;
