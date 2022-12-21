@@ -18,51 +18,72 @@ body{
 
 #background{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
     background-image: url(../images/mybackground.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
 
-    border-bottom: 1px solid rgba(0,0,0,0.5);
-
-    
 
 }
-.backgroundtxt span{
-    display:flex;
-    padding-top: 80px;
-    padding-right: 400px;
-    padding-bottom: 600px;
-    padding-left: 400px;
+.topbar{
+    background-color: #3333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     
+}
+
+.topbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.topbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topbar a.active{
+    color: white;
+}
+.backgroundtxt span{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: wheat;
     font-size: 50px;
-    color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 20px;
-    position: relative;
-    animation: animate 5s linear infinite;
-  
+    line-height: 1.2;
+    margin-top: 100px; 
 }
 
 .backgroundtxt a{
     display: flex;
-    position: relative;
-    font-size: 1.3rem;
-    color: #fff;
-    position: relative;
     justify-content: center;
     align-items: center;
-    top:-600px; 
-    
-    
-    
-    
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 30px 20px;
+    transition: 0.5s;
+
+
 }
-
-
