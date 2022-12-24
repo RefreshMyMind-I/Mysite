@@ -51,7 +51,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/back.png);
+    background-image: url(../images/Screenshot_1.png);
     padding: 50;
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
@@ -63,12 +63,12 @@ body{
     align-items: center;
 }
 .blog-heading span{
-    color: wheat;
+    color: burlywood;
     font-size: 1rem;
 }
 .blog-heading h3{
     font-size: 2.3rem;
-    color: white;
+    color: paleturquoise;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(31, 31, 53);
 }
 
@@ -83,7 +83,7 @@ body{
 .blog-box{
     
     width: 400px;
-    background-color: bisque;
+    background-color: #888888;
     border: 1px solid rgb(0, 0, 0);
     margin: 20px;
     border-radius: 20px;
@@ -127,7 +127,7 @@ body{
 }
 
 .blog-text .blog-title:hover{
-    color: rgb(245, 0, 0);
+    color: whitesmoke;
     transition: all ease 0.3s;
 }
 .blog-text p{

@@ -47,7 +47,7 @@ body{
 }
 
 .bg {
-    background: url(../images/1_milkyway.jpg) no-repeat;
+    background: black no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
