@@ -51,7 +51,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/Screenshot_1.png);
+    background-image: url(../images/back.png);
     padding: 50;
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
